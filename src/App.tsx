@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import DesignShowcase from './components/DesignShowcase';
 import Volunteering from './components/Volunteering';
+import WebExperience from './components/WebExperience';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -32,6 +33,7 @@ export default function App() {
         <Hero />
         <About />
         <Volunteering />
+        <WebExperience />
         <DesignShowcase />
       </main>
       <Footer />
