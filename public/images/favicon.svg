@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="gradientBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradientText" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#60a5fa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="90" cy="90" r="90" fill="url(#gradientBg)"/>
+  
+  <!-- Dark overlay for depth -->
+  <circle cx="90" cy="90" r="85" fill="#07060b" opacity="0.1"/>
+  
+  <!-- Text "UW" -->
+  <text x="90" y="110" font-family="Space Grotesk, sans-serif" font-size="90" font-weight="700" text-anchor="middle" fill="url(#gradientText)" letter-spacing="-2">UW</text>
+  
+  <!-- Subtle accent line -->
+  <line x1="30" y1="140" x2="150" y2="140" stroke="url(#gradientText)" stroke-width="3" opacity="0.6"/>
+</svg>
