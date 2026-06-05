@@ -5,6 +5,7 @@ const navLinks = [
   { label: 'Home', href: '#home' },
   { label: 'About', href: '#about' },
   { label: 'Experience', href: '#experience' },
+  { label: 'Web Design', href: '#web-experience' },
   { label: 'Designs', href: '#designs' },
   { label: 'Contact', href: '#contact' },
 ];
@@ -19,7 +20,7 @@ export default function Navbar() {
       setScrolled(window.scrollY > 50);
 
       // Determine active section
-      const sections = ['home', 'about', 'designs', 'experience', 'contact'];
+      const sections = ['home', 'about', 'experience', 'web-experience', 'designs', 'contact'];
       for (const section of sections.reverse()) {
         const el = document.getElementById(section);
         if (el && el.getBoundingClientRect().top <= 200) {
