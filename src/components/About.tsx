@@ -49,7 +49,7 @@ export default function About() {
               Hi, I'm <span className="text-[#f1f0f5] font-semibold">Udani Wickramasinghe</span>, a Graphic Designer and second-year undergraduate at the{' '}
               <span className="text-[#a855f7]">University of Moratuwa</span>, pursuing a{' '}
               <span className="text-[#f1f0f5]">BSc (Hons) in Information Technology</span>.
-              I craft minimalistic, modern visual solutions—logos, branding, social media content, posters, T-shirt designs, and digital experiences—that communicate ideas clearly. My blend of creativity and technical knowledge lets me design with both aesthetic appeal and real functionality in mind.
+              I craft minimalistic, modern visual solutions logos, branding, social media content, posters, T-shirt designs, and digital experiences that communicate ideas clearly. My blend of creativity and technical knowledge lets me design with both aesthetic appeal and real functionality in mind.
             </p>
           </div>
         </motion.div>
