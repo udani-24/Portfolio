@@ -49,8 +49,8 @@ export default function WebExperience() {
         </motion.div>
 
         {/* Main content */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
-          {/* Left side - Description */}
+        <div className="space-y-12 mb-20">
+          {/* Description */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -91,7 +91,7 @@ export default function WebExperience() {
             </div>
           </motion.div>
 
-          {/* Right side - GitHub showcase */}
+          {/* GitHub showcase */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -99,7 +99,6 @@ export default function WebExperience() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="flex flex-col gap-8"
           >
-            {/* Main GitHub card */}
             <div className="glow-card rounded-2xl p-10 bg-gradient-to-br from-[#12101c]/80 to-[#0d0b14]/80 backdrop-blur-sm border border-[#3b82f6]/20 hoverable group transition-all duration-300">
               <div className="flex items-center gap-4 mb-6">
                 <div className="p-4 rounded-xl bg-gradient-to-br from-[#3b82f6]/20 to-[#a855f7]/20 group-hover:from-[#3b82f6]/30 group-hover:to-[#a855f7]/30 transition-all">
@@ -115,7 +114,6 @@ export default function WebExperience() {
                 Check out my GitHub profile to see my web development projects, contributions, and the code behind my designs. I'm constantly learning and building new projects.
               </p>
 
-              {/* Stats */}
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="p-4 rounded-lg bg-[#07060b]/50 border border-[#1e1b2e]">
                   <div className="flex items-center gap-2 mb-2">
@@ -133,7 +131,6 @@ export default function WebExperience() {
                 </div>
               </div>
 
-              {/* GitHub button */}
               <a
                 href="https://github.com/udani-24"
                 target="_blank"
@@ -146,7 +143,6 @@ export default function WebExperience() {
               </a>
             </div>
 
-            {/* Secondary CTA */}
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
